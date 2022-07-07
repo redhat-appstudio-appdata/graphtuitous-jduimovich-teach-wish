@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: haproxy
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:jduimovich-haproxy
+      - image: quay.io/redhat-appstudio/user-workload:jduimovich-haproxy-2487e97a3f5dc6367421aa1641746dc0e4a3e50b
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
